@@ -478,6 +478,7 @@
   }
   @media (max-width:520px){ .topbar .site-link{ display:none; } }
 
+  .cat-note{ color:var(--cream-dim); font-size:0.9rem; margin:-8px 0 22px; }
   /* ---- round 3: maroon outlines, bold overview heading ---- */
   .topbar .jumpnav{ border-color:var(--maroon-bright); }
   .overview-accordion, .overview-accordion:hover{ border-color:var(--maroon-bright); }
@@ -602,7 +603,8 @@
 
   <div id="artists" class="artist-sections">
     <h2 class="section-title" id="main-bands">Main Bands</h2>
-    <p class="cat-intro">These bands combine a rock and blues sensibility with extensive repertoires spanning familiar indie, alt rock and pop classics. With the flexibility to tailor their set to a host&rsquo;s favourites, they bring amazing guitar-led energy and musical credibility to drive the party and get a dance floor pumping!</p>
+    <p class="cat-intro">These bands are the perfect combination: flourishing touring careers and their own original music, alongside extensive repertoires spanning familiar indie, alt rock and pop classics. With a rock and blues sensibility and the flexibility to tailor their set to the host&rsquo;s favourites, they bring amazing guitar-led energy and musical credibility to drive the party and get a dance floor pumping!</p>
+    <p class="cat-note"><em>Note: their video content mostly showcases original material, so much of their party repertoire isn&rsquo;t captured on film, but it&rsquo;s something they deliver brilliantly live.</em></p>
     <div class="artist-grid" id="artistGridBands"></div>
 
   <div class="divider" aria-hidden="true"><span class="wave"><span class="bar" style="height:10px;"></span><span class="bar" style="height:18px;"></span><span class="bar" style="height:26px;"></span><span class="bar" style="height:14px;"></span><span class="bar" style="height:22px;"></span><span class="bar" style="height:10px;"></span><span class="bar" style="height:18px;"></span><span class="bar" style="height:26px;"></span><span class="bar" style="height:14px;"></span><span class="bar" style="height:10px;"></span></span></div>
@@ -807,8 +809,10 @@ const ARTISTS_BANDS = [
     fee:'&pound;10,250 + VAT <em>(plus travel from France)</em>',
     note: AVAIL,
     videos:[
-      { label:'Live Highlights', yt:{id:'4OLB-q5EwaA', start:100} },
-      { label:'Live Full Show', yt:{id:'QE7LHUDzNVs', start:4966} }
+      { label:'Original', yt:{id:'4OLB-q5EwaA', start:100} },
+      { label:'Graceland', yt:{id:'K1mGHpkOztE', start:150} },
+      { label:'Wild Horses', yt:{id:'WshaAtEYb_w', start:180} },
+      { label:'Full Show', yt:{id:'QE7LHUDzNVs', start:4966} }
     ]
   },
   {
@@ -821,8 +825,8 @@ const ARTISTS_BANDS = [
     fee:'&pound;5,500 - &pound;6,750 + VAT',
     note: AVAIL,
     videos:[
-      { label:'Original', yt:{id:'N9u_Dvcl4RY', start:7} },
-      { label:'Showreel', drive:'1ISrHIJu1G6rNAs7KTMPgSHlwvoGb8D3k', thumb:'https://drive.google.com/thumbnail?id=1ISrHIJu1G6rNAs7KTMPgSHlwvoGb8D3k&sz=w1000' }
+      { label:'Showreel', drive:'1ISrHIJu1G6rNAs7KTMPgSHlwvoGb8D3k' },
+      { label:'Original', yt:{id:'N9u_Dvcl4RY', start:7} }
     ]
   }
 ];
